@@ -7,6 +7,135 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    
+  <ion-card>
+        <ion-card-header>
+          <ion-card-title>Create Your Own Pizza</ion-card-title>
+        </ion-card-header>
+          
+        <ion-card-content>
+      
+          <form action="">
+
+            <!-- Crust -->
+            <ion-card>
+              <ion-radio-group>
+
+                <ion-list-header>
+                  <ion-label>Crust</ion-label>
+                </ion-list-header>
+                    
+                <ion-item>
+                  <ion-label>Thin</ion-label>
+                  <ion-radio slot="start" value="thin"></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                   <ion-label>Original</ion-label>
+                   <ion-radio slot="start" value="original"></ion-radio>
+                </ion-item>
+              </ion-radio-group>
+                </ion-card>
+
+                <!-- Size -->
+                <ion-card>
+                    <ion-radio-group>
+    
+                      <ion-list-header>
+                        <ion-label>Size</ion-label>
+                      </ion-list-header>
+                        
+                      <ion-item>
+                        <ion-label>Small</ion-label>
+                        <ion-radio slot="start" value="small"></ion-radio>
+                      </ion-item>
+                    
+                      <ion-item>
+                        <ion-label>Medium</ion-label>
+                        <ion-radio slot="start" value="medium"></ion-radio>
+                      </ion-item>
+
+                      <ion-item>
+                          <ion-label>Large</ion-label>
+                          <ion-radio slot="start" value="medium"></ion-radio>
+                        </ion-item>
+                      
+                      </ion-radio-group>
+                    </ion-card>
+
+                <!-- Toppings -->
+                <ion-card>
+                    <ion-radio-group>
+
+                      <ion-list-header>
+                        <ion-label>Toppings</ion-label>
+                      </ion-list-header>
+                        
+                      <ion-item>
+                        <ion-label>Pepperoni</ion-label>
+                        <ion-radio slot="start" value="pepperoni"></ion-radio>
+                      </ion-item>
+                    
+                      <ion-item>
+                        <ion-label>Sausage</ion-label>
+                        <ion-radio slot="start" value="sausage"></ion-radio>
+                      </ion-item>
+
+                      <ion-item>
+                          <ion-label>Canadian Bacon</ion-label>
+                          <ion-radio slot="start" value="can_bac"></ion-radio>
+                      </ion-item>
+
+                      <ion-item>
+                          <ion-label>Spicy Italian Sausage</ion-label>
+                          <ion-radio slot="start" value="sp_ital_sausage"></ion-radio>
+                      </ion-item>
+
+                      <ion-item>
+                          <ion-label>Bacon</ion-label>
+                          <ion-radio slot="start" value="bacon"></ion-radio>
+                      </ion-item>
+                      
+                      </ion-radio-group>
+                    </ion-card>
+                
+
+<!-- Input with placeholder -->
+<ion-input placeholder="Enter Input"></ion-input>
+
+<!-- Input with clear button when there is a value -->
+<ion-input clearInput value="clear me"></ion-input>
+
+<!-- Number type input -->
+<ion-input type="number" value="333"></ion-input>
+
+<!-- Disabled input -->
+<ion-input value="Disabled" disabled></ion-input>
+
+<!-- Readonly input -->
+<ion-input value="Readonly" readonly></ion-input>
+
+<!-- Inputs with labels -->
+<ion-item>
+  <ion-label>Default Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="floating">Floating Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="fixed">Fixed Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="stacked">Stacked Label</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+          </form>
+        </ion-card-content>
+      </ion-card>
 </ion-content>
